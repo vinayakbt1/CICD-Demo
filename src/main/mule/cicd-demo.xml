@@ -12,4 +12,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="737dd79b-b41a-44fe-b45b-3e58ddafaedb" config-ref="HTTP_Listener_config" path="/cicd"/>
 		<set-payload value='#["This is to test CICD Auto Deployment !!!"]' doc:name="Set Payload" doc:id="2b662ee5-4f38-4de2-8f13-50f899562102" />
 	</flow>
+	
 </mule>
